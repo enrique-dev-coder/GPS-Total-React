@@ -4,12 +4,10 @@ import image from "../../images/logo_web_lg.png";
 import { Link, Router } from "react-router-dom";
 function Navbar() {
   useEffect(() => {
-    document.addEventListener("DOMContentLoaded", function () {
-      var elems = document.querySelectorAll(".sidenav");
-      var instances = M.Sidenav.init(elems, {
-        edge: "left",
-        draggable: "true",
-      });
+    var elems = document.querySelectorAll(".sidenav");
+    var instances = M.Sidenav.init(elems, {
+      edge: "left",
+      draggable: "true",
     });
   }, []);
 

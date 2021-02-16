@@ -4,11 +4,10 @@ import image from "../../images/sierra.jpg";
 
 function Tittle() {
   useEffect(() => {
-    document.addEventListener("DOMContentLoaded", function () {
-      var elems = document.querySelectorAll(".parallax");
-      var instances = M.Parallax.init(elems, {});
-    });
+    var elems = document.querySelectorAll(".parallax");
+    var instances = M.Parallax.init(elems, {});
   }, []);
+
   return (
     <div id="index-banner" className="parallax-container">
       <div className="section no-pad-bot">
