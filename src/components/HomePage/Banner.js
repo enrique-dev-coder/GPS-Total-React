@@ -5,7 +5,7 @@ import image from "../../images/background3.jpg";
 function Banner() {
   useEffect(() => {
     var elems = document.querySelectorAll(".parallax");
-    var instances = M.Parallax.init(elems, {});
+    M.Parallax.init(elems, {});
   }, []);
 
   return (

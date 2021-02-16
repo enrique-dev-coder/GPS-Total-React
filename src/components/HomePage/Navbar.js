@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
 import M from "materialize-css/dist/js/materialize.min.js";
 import image from "../../images/logo_web_lg.png";
-import { Link, Router } from "react-router-dom";
+import { Link } from "react-router-dom";
 function Navbar() {
   useEffect(() => {
     var elems = document.querySelectorAll(".sidenav");
-    var instances = M.Sidenav.init(elems, {
+    M.Sidenav.init(elems, {
       edge: "left",
       draggable: "true",
     });

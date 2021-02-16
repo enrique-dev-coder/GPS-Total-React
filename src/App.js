@@ -9,7 +9,7 @@ import Cotizaciones from "./components/Cotizaciones/Cotizaciones";
 function App() {
   useEffect(() => {
     M.AutoInit();
-  });
+  }, []);
 
   return (
     <BrowserRouter>
