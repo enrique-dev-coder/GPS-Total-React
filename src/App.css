@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+body {
+  font-family: "Montserrat", sans-serif;
+}
+@font-face {
+  font-family: Colus;
+  src: url("./Fonts/Colus/Colus-Regular.eot");
+  src: url("./Fonts/Colus/Colus-Regular.eot?#iefix") format("embedded-opentype"),
+    url("./Fonts/Colus/Colus-Regular.woff2") format("woff2"),
+    url("./Fonts/Colus/Colus-Regular.woff") format("woff"),
+    url("./Fonts/Colus/Colus-Regular.ttf") format("truetype");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#mio {
+  font-size: 50px;
+  font-family: "Colus", Helvetica, Arial, sans-serif;
+}
+#op {
+  opacity: 0.2;
+  filter: alpha(opacity=50);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+#logo-container {
+  width: 280px;
+  height: 100%;
+  margin-top: 5px;
+}
+
+nav {
+  height: 85px;
+}
+
+nav ul a {
+  color: #054e92;
+  font-weight: bold;
+}
+
+.light {
+  font-weight: 600;
+}
+
+@media (max-width: 475px) {
+  #logo-container {
+    margin-top: 0px;
+    height: 100%;
+    width: 300px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 993px) {
+  #logo-container {
+    margin-right: 100px;
+    height: 100%;
+    width: 300px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width: 320px) {
+  #mio {
+    font-size: 30px;
+    font-family: "Colus", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+  }
+}
+@media only screen and (min-device-width: 321px) and (max-device-width: 475px) {
+  #mio {
+    font-size: 35px;
+    font-family: "Colus", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #logo-container {
+    margin-right: 100px;
+    height: 100%;
+    width: 300px;
+  }
+  #mio {
+    font-size: 55px;
+    font-family: "Colus", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (min-device-width: 1025px) and (max-device-width: 3000px) {
+  #mio {
+    font-size: 65px;
+    font-family: "Colus", Helvetica, Arial, sans-serif;
+    font-weight: bold;
   }
 }
