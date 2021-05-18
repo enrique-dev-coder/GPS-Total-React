@@ -7,6 +7,7 @@ import Proyectos from "./components/Proyectos/Proyectos";
 import Cotizaciones from "./components/Cotizaciones/Cotizaciones";
 
 function App() {
+  // hook para inicializar los componentes de materialize
   useEffect(() => {
     M.AutoInit();
   }, []);

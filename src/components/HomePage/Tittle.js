@@ -1,46 +1,22 @@
-import React, { useEffect } from "react";
-import M from "materialize-css/dist/js/materialize.min.js";
-import image from "../../images/sierra.jpg";
-
-function Tittle() {
-  useEffect(() => {
-    var elems = document.querySelectorAll(".parallax");
-    M.Parallax.init(elems, {});
-  }, []);
+import React from "react";
+import "./Tittle.css"
+import Navbar from "./Navbar"
+const Tittle=()=> {
 
   return (
-    <div id="index-banner" className="parallax-container">
-      <div className="section no-pad-bot">
-        <div className="container">
-          <br />
-          <br />
-          <h1 className="header center grey-text text-darken-4" id="mio">
-            Especialistas en topografia geodesica
-          </h1>
-          <div className="row center">
-            <h5 className="header col s12 strong">
-              Cotizamos proyectos en toda la republica mexicana
-            </h5>
+    <div className="Header--container">
+      <Navbar/>
+      <div className="Tittle--container">
+        <div  className="Tittle--text__container">
+          <div className="Tittle--text__content">
+            <h1>Expertos en topografía geodésica </h1>
+            <p>Cotizamos proyectos en toda la República Mexicana </p>
+            <button className=".btn-grad ">Contactanos</button>        
           </div>
-          <div className="row center">
-            <a
-              href=""
-              className="btn-large waves-effect waves-light grey darken-4"
-            >
-              Contactanos
-            </a>
-          </div>
-          <br />
-          <br />
+        </div>    
+        <div className="Tittle--illustration__container">
+            
         </div>
-      </div>
-      <div className="parallax">
-        <img
-          className="responsive-img"
-          src={image}
-          alt="Unsplashed background img 1"
-          id="op"
-        />
       </div>
     </div>
   );

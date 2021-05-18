@@ -12,7 +12,7 @@ function Navbar() {
   }, []);
 
   return (
-    <nav className="indigo accent-1" role="navigation">
+    <nav id="navbar--style" role="navigation">
       <div className="nav-wrapper container">
         <Link to="/" id="logo-container" class="brand-logo">
           <img class="responsive-img" src={image} alt="logo" />

@@ -25,13 +25,25 @@ body {
   margin-top: 5px;
 }
 
+#navbar--style{
+  background:none;
+  box-shadow: none;
+}
+#navbar--style a{
+  color: #00308F;
+  font-size: 1.5rem;
+}
+
+
 nav {
   height: 85px;
 }
 
+
 nav ul a {
-  color: #054e92;
+  color: #00308F !important;
   font-weight: bold;
+  font-size: 3rem;
 }
 
 .light {
