@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Tittle from "./Tittle";
 import Services from "./Services";
-import Banner from "./Banner";
+import Aboutus  from "./Aboutus"
 import Mision from "./Mision";
 import Footer from "./Footer";
 
@@ -11,7 +11,7 @@ function Home() {
     <>
       <Tittle />
       <Services />
-      <Banner />
+      <Aboutus/>
       <Mision />
       <Footer />
     </>
