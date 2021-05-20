@@ -1,6 +1,6 @@
 .section--aboutus{
     margin-top:2rem ;
-    margin-bottom: 2rem;
+    margin-bottom: 8rem;
     width: 100%;
     min-height:50vh; /*el min height es para que el contenido se adapte */
     background-color: blue;

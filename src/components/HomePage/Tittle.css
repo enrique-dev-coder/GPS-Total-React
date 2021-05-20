@@ -70,3 +70,21 @@ background: linear-gradient(to bottom right, #fff -3%, #77ACDA 110%, #fff 102%);
     background-size: cover;
     background-position: center;
 }
+
+@media (max-width:800px) {
+    .Tittle--illustration__container{
+       display: none;
+    }
+    .Tittle--text__container{
+        width: 100%;
+       
+    }
+}
+
+@media (max-width:360px) {
+    .Tittle--text__content h1{
+      
+        font-size: 4rem;
+        
+    }
+}

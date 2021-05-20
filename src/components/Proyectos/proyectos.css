@@ -1,0 +1,35 @@
+.section--proyectos__container{
+    width: 100%;
+    min-height:90vh ;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.section--proyectos__container h2{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    color: #00308F;
+    font-size: 3rem;
+}
+
+.section--proyectos__container__cards{
+    width:80%;
+    margin:25px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 22px;
+    max-width: 1100px;
+
+}
+
+
+@media (max-width:475px){
+    .section--proyectos__container__cards{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 22px;
+    
+    }
+    .section--proyectos__container h2{
+        font-size: 1.6rem;
+    }
+}
