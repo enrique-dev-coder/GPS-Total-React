@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/GPS-Total-React/static/css/main.1479a3a8.chunk.css",
+    "main.js": "/GPS-Total-React/static/js/main.d6b99df1.chunk.js",
+    "main.js.map": "/GPS-Total-React/static/js/main.d6b99df1.chunk.js.map",
+    "runtime-main.js": "/GPS-Total-React/static/js/runtime-main.32b937e7.js",
+    "runtime-main.js.map": "/GPS-Total-React/static/js/runtime-main.32b937e7.js.map",
+    "static/css/2.0a49d93f.chunk.css": "/GPS-Total-React/static/css/2.0a49d93f.chunk.css",
+    "static/js/2.9eff4883.chunk.js": "/GPS-Total-React/static/js/2.9eff4883.chunk.js",
+    "static/js/2.9eff4883.chunk.js.map": "/GPS-Total-React/static/js/2.9eff4883.chunk.js.map",
+    "static/js/3.8c91f75c.chunk.js": "/GPS-Total-React/static/js/3.8c91f75c.chunk.js",
+    "static/js/3.8c91f75c.chunk.js.map": "/GPS-Total-React/static/js/3.8c91f75c.chunk.js.map",
+    "index.html": "/GPS-Total-React/index.html",
+    "static/css/2.0a49d93f.chunk.css.map": "/GPS-Total-React/static/css/2.0a49d93f.chunk.css.map",
+    "static/css/main.1479a3a8.chunk.css.map": "/GPS-Total-React/static/css/main.1479a3a8.chunk.css.map",
+    "static/js/2.9eff4883.chunk.js.LICENSE.txt": "/GPS-Total-React/static/js/2.9eff4883.chunk.js.LICENSE.txt",
+    "static/media/Tittle.css": "/GPS-Total-React/static/media/Mountain_Isometric.af3638ff.svg",
+    "static/media/logo_web_lg.f351e22f.png": "/GPS-Total-React/static/media/logo_web_lg.f351e22f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.32b937e7.js",
+    "static/css/2.0a49d93f.chunk.css",
+    "static/js/2.9eff4883.chunk.js",
+    "static/css/main.1479a3a8.chunk.css",
+    "static/js/main.d6b99df1.chunk.js"
+  ]
+}
