@@ -1,19 +1,7 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
-@font-face {
-  font-family: Colus;
-  src: url("./Fonts/Colus/Colus-Regular.eot");
-  src: url("./Fonts/Colus/Colus-Regular.eot?#iefix") format("embedded-opentype"),
-    url("./Fonts/Colus/Colus-Regular.woff2") format("woff2"),
-    url("./Fonts/Colus/Colus-Regular.woff") format("woff"),
-    url("./Fonts/Colus/Colus-Regular.ttf") format("truetype");
-}
 
-#mio {
-  font-size: 50px;
-  font-family: "Colus", Helvetica, Arial, sans-serif;
-}
 #op {
   opacity: 0.2;
   filter: alpha(opacity=50);
@@ -66,38 +54,5 @@ nav ul a {
   }
 }
 
-@media (max-width: 320px) {
-  #mio {
-    font-size: 30px;
-    font-family: "Colus", Helvetica, Arial, sans-serif;
-    font-weight: bold;
-  }
-}
-@media only screen and (min-device-width: 321px) and (max-device-width: 475px) {
-  #mio {
-    font-size: 35px;
-    font-family: "Colus", Helvetica, Arial, sans-serif;
-    font-weight: bold;
-  }
-}
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  #logo-container {
-    margin-right: 100px;
-    height: 100%;
-    width: 300px;
-  }
-  #mio {
-    font-size: 55px;
-    font-family: "Colus", Helvetica, Arial, sans-serif;
-    font-weight: bold;
-  }
-}
 
-@media only screen and (min-device-width: 1025px) and (max-device-width: 3000px) {
-  #mio {
-    font-size: 65px;
-    font-family: "Colus", Helvetica, Arial, sans-serif;
-    font-weight: bold;
-  }
-}

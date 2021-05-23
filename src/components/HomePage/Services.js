@@ -1,9 +1,10 @@
 import React from "react";
+import "./services.css"
 
 function Services() {
   return (
-    <article className="container">
-      <div className="section">
+    <article className="container services--text">
+      <div className="section" id="text--size">
         <div className="row">
           <div className="col s12 m4">
             <div className="icon-block">
@@ -13,7 +14,7 @@ function Services() {
                 </h2>
               </a>
               <h5 className="center">Servicios</h5>
-              <p className="strong">
+              <p className="strong" >
                 By utilizing elements and principles of Material Design, we were
                 able to create a framework that incorporates components and
                 animations that provide more feedback to users. Additionally, a
