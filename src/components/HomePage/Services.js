@@ -3,7 +3,7 @@ import "./services.css"
 
 function Services() {
   return (
-    <article className="container services--text">
+    <article className="container services--text" style={{margin:"40px auto"}}>
       <div className="section" id="text--size">
         <div className="row">
           <div className="col s12 m4">

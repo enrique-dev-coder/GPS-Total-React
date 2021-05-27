@@ -32,7 +32,7 @@ function Proyectos() {
   },[])
   return(
 
-      <section className="section--proyectos__container">
+      <section className="section--proyectos__container" id="proyects">
         <h2>Contamos con amplia experiencia en proyectos nacionales en internancionales</h2>
         <div className="section--proyectos__container__cards">
           { cards.map((proyectos)=>{
